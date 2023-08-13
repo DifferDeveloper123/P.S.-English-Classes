@@ -81,7 +81,7 @@ nav a {
   background-color: #DFDFDF;
   width: 100%;
   position: absolute;
-  bottom: -700px;
+  bottom: -800px;
   left: 0px;
 }
 
@@ -217,7 +217,7 @@ justify-items: space-around;
 
 @media only screen and (max-width: 600px) {
   .footer{
-  bottom: -650px;
+  bottom: -700px;
   }
   .footer h4{
     font-size: 10px;
@@ -262,6 +262,22 @@ max-height: 36x;
   margin-left: -20px;
 }
 
+.card{
+  scale: 0.7;
+  margin-bottom: -60px
+}
+
+.card h3.card-title {
+  font-weight: 700;
+  font-size: 28.8px;
+  text-align: center;
+}
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 72px;
+}
+
   nav a{
     white-space: nowrap;
   }
@@ -276,10 +292,20 @@ max-height: 36x;
   border-radius: 12px;
   height: 30px;
 }
+.footer{
+bottom: -575px;
+}
+hr{
+  margin-bottom: -15px;
+}
 }
 
 @media only screen and (max-width: 470px) {
   
+  .topa{
+    display: block;
+  }
+
   .footer{
   bottom: -550px;
   }
@@ -290,9 +316,12 @@ nav {
   top: 17px;
 }
 
-  .card{
-    scale: 0.7;
-  }
+.card{
+  scale: 0.6;
+  width: 80%;
+  margin: auto;
+  margin-bottom: -100px;
+}
 .card h3.card-title {
   font-size: 18px;
 }
@@ -303,25 +332,15 @@ nav {
 }
 
 @media only screen and (max-width: 410px) {
-
-  .topa{
-    display: block;
-  }
-  .card{
-    scale: 0.6;
-    width: 80%;
-    margin: auto;
-    margin-bottom: -100px;
-  }
   .footer{
-  bottom: -750px;
+  bottom: -620px;
   }
 }
 
 @media only screen and (max-width: 370px) {
 
   .footer{
-  bottom: -850px;
+  bottom: -750px;
   }
   
 .vl {
@@ -357,5 +376,17 @@ max-height: 36x;
 
   nav a{
     white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 297px) {
+  .footer{
+  bottom: -890px;
+  }
+}
+
+@media only screen and (max-width: 262px) {
+  .footer{
+  bottom: -1050px;
   }
 }
